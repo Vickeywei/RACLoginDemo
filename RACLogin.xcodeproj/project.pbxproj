@@ -130,6 +130,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E3AC8A11D29206D00C5B53C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E49703A1D29044700937645 /* Controller */,
+				3E49703B1D29044700937645 /* Images */,
+				3E49703C1D29044700937645 /* Itools */,
+				3E49703D1D29044700937645 /* View */,
+				3E49703E1D29044700937645 /* ViewMolde */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		3E496FFB1D2903F600937645 = {
 			isa = PBXGroup;
 			children = (
@@ -155,11 +167,7 @@
 		3E4970061D2903F600937645 /* RACLogin */ = {
 			isa = PBXGroup;
 			children = (
-				3E49703A1D29044700937645 /* Controller */,
-				3E49703B1D29044700937645 /* Images */,
-				3E49703C1D29044700937645 /* Itools */,
-				3E49703D1D29044700937645 /* View */,
-				3E49703E1D29044700937645 /* ViewMolde */,
+				3E3AC8A11D29206D00C5B53C /* Classes */,
 				3E49700A1D2903F600937645 /* AppDelegate.h */,
 				3E49700B1D2903F600937645 /* AppDelegate.m */,
 				3E4970101D2903F600937645 /* Main.storyboard */,

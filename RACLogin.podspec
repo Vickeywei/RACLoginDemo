@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.name         = 'RACLogin'
     s.version      = '0.0.1'
     s.summary      = 'login.'
-    s.source_files  = 'RACLogin/RACLogin/*.{h,m}'
+    s.source_files  = 'RACLogin/Classes/*.{h,m}'
     s.homepage     = "https://github.com/Vickeywei/RACLoginDemo.git/"
     s.license      = "MIT"
     s.author       = { "weiqi" => "weiqi@hzdracom.com" }
