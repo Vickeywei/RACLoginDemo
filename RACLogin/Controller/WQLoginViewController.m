@@ -29,31 +29,30 @@
             switch (status) {
                 case WQLoginViewModelStatus_Doding: {
                     
-                    [MBProgressHUD showText:@"正在登录,请稍候"
-                                       icon:nil
-                                       view:self.view
-                                 afterDelay:0.5];
-                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                        [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-                    });
+                    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+                   
                    
                     break;
                 }
                 case WQLoginViewModelStatus_Success: {
                     [MBProgressHUD hideHUDForView:self.view animated:YES];
-                    [MBProgressHUD showText:@"登录成功"
-                                       icon:nil
-                                       view:self.view
-                                 afterDelay:0.3];
+                    [MBProgressHUD showImages:nil view:self.view text:@"登录成功"];
+                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                        [MBProgressHUD hudHideForView:self.view];
+                    });
+                    
+//
                     
                     break;
                 }
                 case WQLoginViewModelStatus_Fail: {
                     [MBProgressHUD hideHUDForView:self.view animated:YES];
-                    [MBProgressHUD showText:@"登录失败"
-                                       icon:nil
-                                       view:self.view
-                                 afterDelay:0.3];
+                    [MBProgressHUD showImages:nil view:self.view text:@"登录失败"];
+                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                        [MBProgressHUD hudHideForView:self.view];
+                    });
+//
+                 
 
                     
                     break;
