@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3AC8B31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8A41D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m */; };
+		3E3AC8B41D2926BC00C5B53C /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8A61D2926BC00C5B53C /* NSString+Size.m */; };
+		3E3AC8B51D2926BC00C5B53C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8A81D2926BC00C5B53C /* UIImage+Resize.m */; };
+		3E3AC8B61D2926BC00C5B53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8AA1D2926BC00C5B53C /* ViewController.m */; };
+		3E3AC8B71D2926BC00C5B53C /* WQLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8AC1D2926BC00C5B53C /* WQLoginView.m */; };
+		3E3AC8B81D2926BC00C5B53C /* WQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8AE1D2926BC00C5B53C /* WQLoginViewController.m */; };
+		3E3AC8B91D2926BC00C5B53C /* WQLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8B01D2926BC00C5B53C /* WQLoginViewModel.m */; };
+		3E3AC8BA1D2926BC00C5B53C /* WQLoginViewModelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8B21D2926BC00C5B53C /* WQLoginViewModelDemo.m */; };
 		3E4970091D2903F600937645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4970081D2903F600937645 /* main.m */; };
 		3E49700C1D2903F600937645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49700B1D2903F600937645 /* AppDelegate.m */; };
 		3E4970121D2903F600937645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4970101D2903F600937645 /* Main.storyboard */; };
@@ -14,11 +22,6 @@
 		3E4970171D2903F600937645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4970151D2903F600937645 /* LaunchScreen.storyboard */; };
 		3E4970221D2903F600937645 /* RACLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4970211D2903F600937645 /* RACLoginTests.m */; };
 		3E49702D1D2903F600937645 /* RACLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49702C1D2903F600937645 /* RACLoginUITests.m */; };
-		3E4970431D2904CE00937645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4970401D2904CE00937645 /* ViewController.m */; };
-		3E4970441D2904CE00937645 /* WQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4970421D2904CE00937645 /* WQLoginViewController.m */; };
-		3E49704B1D2904DC00937645 /* MBProgressHUD+WQTextHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4970461D2904DC00937645 /* MBProgressHUD+WQTextHud.m */; };
-		3E49704C1D2904DC00937645 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4970481D2904DC00937645 /* NSString+Size.m */; };
-		3E49704D1D2904DC00937645 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49704A1D2904DC00937645 /* UIImage+Resize.m */; };
 		3E49705B1D2904E800937645 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E49704E1D2904E800937645 /* logo@2x.png */; };
 		3E49705C1D2904E800937645 /* text_input_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E49704F1D2904E800937645 /* text_input_high@2x.png */; };
 		3E49705D1D2904E800937645 /* text_input_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4970501D2904E800937645 /* text_input_normal@2x.png */; };
@@ -32,9 +35,6 @@
 		3E4970651D2904E800937645 /* code_icon_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4970581D2904E800937645 /* code_icon_normal@2x.png */; };
 		3E4970661D2904E800937645 /* phone_icon_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4970591D2904E800937645 /* phone_icon_high@2x.png */; };
 		3E4970671D2904E800937645 /* phone_icon_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E49705A1D2904E800937645 /* phone_icon_normal@2x.png */; };
-		3E49706A1D2904F400937645 /* WQLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4970691D2904F400937645 /* WQLoginView.m */; };
-		3E49706F1D2904FC00937645 /* WQLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49706C1D2904FC00937645 /* WQLoginViewModel.m */; };
-		3E4970701D2904FC00937645 /* WQLoginViewModelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49706E1D2904FC00937645 /* WQLoginViewModelDemo.m */; };
 		73FEB4FC17E55A132DF76A55 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8097997F1DA4BA3B7F6DD35F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +56,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E3AC8A31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WQTextHud.h"; sourceTree = "<group>"; };
+		3E3AC8A41D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WQTextHud.m"; sourceTree = "<group>"; };
+		3E3AC8A51D2926BC00C5B53C /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		3E3AC8A61D2926BC00C5B53C /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		3E3AC8A71D2926BC00C5B53C /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		3E3AC8A81D2926BC00C5B53C /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		3E3AC8A91D2926BC00C5B53C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E3AC8AA1D2926BC00C5B53C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E3AC8AB1D2926BC00C5B53C /* WQLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginView.h; sourceTree = "<group>"; };
+		3E3AC8AC1D2926BC00C5B53C /* WQLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginView.m; sourceTree = "<group>"; };
+		3E3AC8AD1D2926BC00C5B53C /* WQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginViewController.h; sourceTree = "<group>"; };
+		3E3AC8AE1D2926BC00C5B53C /* WQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginViewController.m; sourceTree = "<group>"; };
+		3E3AC8AF1D2926BC00C5B53C /* WQLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginViewModel.h; sourceTree = "<group>"; };
+		3E3AC8B01D2926BC00C5B53C /* WQLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginViewModel.m; sourceTree = "<group>"; };
+		3E3AC8B11D2926BC00C5B53C /* WQLoginViewModelDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginViewModelDemo.h; sourceTree = "<group>"; };
+		3E3AC8B21D2926BC00C5B53C /* WQLoginViewModelDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginViewModelDemo.m; sourceTree = "<group>"; };
 		3E4970041D2903F600937645 /* RACLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4970081D2903F600937645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E49700A1D2903F600937645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,16 +86,6 @@
 		3E4970281D2903F600937645 /* RACLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E49702C1D2903F600937645 /* RACLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACLoginUITests.m; sourceTree = "<group>"; };
 		3E49702E1D2903F600937645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E49703F1D2904CE00937645 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E4970401D2904CE00937645 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3E4970411D2904CE00937645 /* WQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginViewController.h; sourceTree = "<group>"; };
-		3E4970421D2904CE00937645 /* WQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginViewController.m; sourceTree = "<group>"; };
-		3E4970451D2904DC00937645 /* MBProgressHUD+WQTextHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WQTextHud.h"; sourceTree = "<group>"; };
-		3E4970461D2904DC00937645 /* MBProgressHUD+WQTextHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WQTextHud.m"; sourceTree = "<group>"; };
-		3E4970471D2904DC00937645 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
-		3E4970481D2904DC00937645 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
-		3E4970491D2904DC00937645 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		3E49704A1D2904DC00937645 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		3E49704E1D2904E800937645 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		3E49704F1D2904E800937645 /* text_input_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_input_high@2x.png"; sourceTree = "<group>"; };
 		3E4970501D2904E800937645 /* text_input_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_input_normal@2x.png"; sourceTree = "<group>"; };
@@ -93,12 +99,6 @@
 		3E4970581D2904E800937645 /* code_icon_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "code_icon_normal@2x.png"; sourceTree = "<group>"; };
 		3E4970591D2904E800937645 /* phone_icon_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_icon_high@2x.png"; sourceTree = "<group>"; };
 		3E49705A1D2904E800937645 /* phone_icon_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_icon_normal@2x.png"; sourceTree = "<group>"; };
-		3E4970681D2904F400937645 /* WQLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginView.h; sourceTree = "<group>"; };
-		3E4970691D2904F400937645 /* WQLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginView.m; sourceTree = "<group>"; };
-		3E49706B1D2904FC00937645 /* WQLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginViewModel.h; sourceTree = "<group>"; };
-		3E49706C1D2904FC00937645 /* WQLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginViewModel.m; sourceTree = "<group>"; };
-		3E49706D1D2904FC00937645 /* WQLoginViewModelDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginViewModelDemo.h; sourceTree = "<group>"; };
-		3E49706E1D2904FC00937645 /* WQLoginViewModelDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginViewModelDemo.m; sourceTree = "<group>"; };
 		8097997F1DA4BA3B7F6DD35F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB337425525624B6ED902DEE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6401D5194A515E7CC0CBC8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,16 +130,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E3AC8A11D29206D00C5B53C /* Classes */ = {
+		3E3AC8A21D29269A00C5B53C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3E49703A1D29044700937645 /* Controller */,
-				3E49703B1D29044700937645 /* Images */,
-				3E49703C1D29044700937645 /* Itools */,
-				3E49703D1D29044700937645 /* View */,
-				3E49703E1D29044700937645 /* ViewMolde */,
+				3E3AC8A31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.h */,
+				3E3AC8A41D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m */,
+				3E3AC8A51D2926BC00C5B53C /* NSString+Size.h */,
+				3E3AC8A61D2926BC00C5B53C /* NSString+Size.m */,
+				3E3AC8A71D2926BC00C5B53C /* UIImage+Resize.h */,
+				3E3AC8A81D2926BC00C5B53C /* UIImage+Resize.m */,
+				3E3AC8A91D2926BC00C5B53C /* ViewController.h */,
+				3E3AC8AA1D2926BC00C5B53C /* ViewController.m */,
+				3E3AC8AB1D2926BC00C5B53C /* WQLoginView.h */,
+				3E3AC8AC1D2926BC00C5B53C /* WQLoginView.m */,
+				3E3AC8AD1D2926BC00C5B53C /* WQLoginViewController.h */,
+				3E3AC8AE1D2926BC00C5B53C /* WQLoginViewController.m */,
+				3E3AC8AF1D2926BC00C5B53C /* WQLoginViewModel.h */,
+				3E3AC8B01D2926BC00C5B53C /* WQLoginViewModel.m */,
+				3E3AC8B11D2926BC00C5B53C /* WQLoginViewModelDemo.h */,
+				3E3AC8B21D2926BC00C5B53C /* WQLoginViewModelDemo.m */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3E496FFB1D2903F600937645 = {
@@ -167,13 +178,14 @@
 		3E4970061D2903F600937645 /* RACLogin */ = {
 			isa = PBXGroup;
 			children = (
-				3E3AC8A11D29206D00C5B53C /* Classes */,
+				3E3AC8A21D29269A00C5B53C /* Classes */,
 				3E49700A1D2903F600937645 /* AppDelegate.h */,
 				3E49700B1D2903F600937645 /* AppDelegate.m */,
 				3E4970101D2903F600937645 /* Main.storyboard */,
 				3E4970131D2903F600937645 /* Assets.xcassets */,
 				3E4970151D2903F600937645 /* LaunchScreen.storyboard */,
 				3E4970181D2903F600937645 /* Info.plist */,
+				3E49703B1D29044700937645 /* Images */,
 				3E4970071D2903F600937645 /* Supporting Files */,
 			);
 			path = RACLogin;
@@ -205,17 +217,6 @@
 			path = RACLoginUITests;
 			sourceTree = "<group>";
 		};
-		3E49703A1D29044700937645 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3E49703F1D2904CE00937645 /* ViewController.h */,
-				3E4970401D2904CE00937645 /* ViewController.m */,
-				3E4970411D2904CE00937645 /* WQLoginViewController.h */,
-				3E4970421D2904CE00937645 /* WQLoginViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		3E49703B1D29044700937645 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,39 +235,6 @@
 				3E49705A1D2904E800937645 /* phone_icon_normal@2x.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		3E49703C1D29044700937645 /* Itools */ = {
-			isa = PBXGroup;
-			children = (
-				3E4970451D2904DC00937645 /* MBProgressHUD+WQTextHud.h */,
-				3E4970461D2904DC00937645 /* MBProgressHUD+WQTextHud.m */,
-				3E4970471D2904DC00937645 /* NSString+Size.h */,
-				3E4970481D2904DC00937645 /* NSString+Size.m */,
-				3E4970491D2904DC00937645 /* UIImage+Resize.h */,
-				3E49704A1D2904DC00937645 /* UIImage+Resize.m */,
-			);
-			path = Itools;
-			sourceTree = "<group>";
-		};
-		3E49703D1D29044700937645 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3E4970681D2904F400937645 /* WQLoginView.h */,
-				3E4970691D2904F400937645 /* WQLoginView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3E49703E1D29044700937645 /* ViewMolde */ = {
-			isa = PBXGroup;
-			children = (
-				3E49706B1D2904FC00937645 /* WQLoginViewModel.h */,
-				3E49706C1D2904FC00937645 /* WQLoginViewModel.m */,
-				3E49706D1D2904FC00937645 /* WQLoginViewModelDemo.h */,
-				3E49706E1D2904FC00937645 /* WQLoginViewModelDemo.m */,
-			);
-			path = ViewMolde;
 			sourceTree = "<group>";
 		};
 		BE27558E182AA2AB81B092CF /* Pods */ = {
@@ -480,16 +448,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4970431D2904CE00937645 /* ViewController.m in Sources */,
+				3E3AC8B61D2926BC00C5B53C /* ViewController.m in Sources */,
+				3E3AC8B71D2926BC00C5B53C /* WQLoginView.m in Sources */,
+				3E3AC8B81D2926BC00C5B53C /* WQLoginViewController.m in Sources */,
+				3E3AC8B41D2926BC00C5B53C /* NSString+Size.m in Sources */,
 				3E49700C1D2903F600937645 /* AppDelegate.m in Sources */,
-				3E4970441D2904CE00937645 /* WQLoginViewController.m in Sources */,
+				3E3AC8B91D2926BC00C5B53C /* WQLoginViewModel.m in Sources */,
+				3E3AC8B31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m in Sources */,
+				3E3AC8BA1D2926BC00C5B53C /* WQLoginViewModelDemo.m in Sources */,
 				3E4970091D2903F600937645 /* main.m in Sources */,
-				3E49706A1D2904F400937645 /* WQLoginView.m in Sources */,
-				3E49706F1D2904FC00937645 /* WQLoginViewModel.m in Sources */,
-				3E49704C1D2904DC00937645 /* NSString+Size.m in Sources */,
-				3E4970701D2904FC00937645 /* WQLoginViewModelDemo.m in Sources */,
-				3E49704B1D2904DC00937645 /* MBProgressHUD+WQTextHud.m in Sources */,
-				3E49704D1D2904DC00937645 /* UIImage+Resize.m in Sources */,
+				3E3AC8B51D2926BC00C5B53C /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
