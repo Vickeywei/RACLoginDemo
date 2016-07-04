@@ -10,6 +10,7 @@
 #import "WQLoginViewModelDemo.h"
 #import "MBProgressHUD+WQTextHud.h"
 #import <MBProgressHUD.h>
+#import "WQRegisDemoViewController.h"
 @interface WQLoginViewController ()
 
 
@@ -21,6 +22,7 @@
 //纯代码的话要重写init方法
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
+        
         self.loginViewModel = [[WQLoginViewModelDemo  alloc] init];
         @weakify(self);
         [RACObserve(self.loginViewModel, status) subscribeNext:^(id x) {
@@ -65,6 +67,10 @@
     }
     return self;
 }
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -74,6 +80,8 @@
     @weakify(self);
     [[self.loginView.regisButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         @strongify(self);
+        WQRegisDemoViewController* regisVC = [[WQRegisDemoViewController alloc] init];
+        [self.navigationController pushViewController:regisVC animated:YES];
         NSLog(@"注册");
         
     }];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E28B0921D2A9C39002686E4 /* WQRegisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E28B0911D2A9C39002686E4 /* WQRegisViewController.m */; };
 		3E3AC8B31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8A41D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m */; };
 		3E3AC8B41D2926BC00C5B53C /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8A61D2926BC00C5B53C /* NSString+Size.m */; };
 		3E3AC8B51D2926BC00C5B53C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8A81D2926BC00C5B53C /* UIImage+Resize.m */; };
@@ -35,6 +36,11 @@
 		3E4970651D2904E800937645 /* code_icon_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4970581D2904E800937645 /* code_icon_normal@2x.png */; };
 		3E4970661D2904E800937645 /* phone_icon_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4970591D2904E800937645 /* phone_icon_high@2x.png */; };
 		3E4970671D2904E800937645 /* phone_icon_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E49705A1D2904E800937645 /* phone_icon_normal@2x.png */; };
+		3EC024231D2A9E8600EDCB6D /* WQRegisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC024221D2A9E8600EDCB6D /* WQRegisView.m */; };
+		3EC024261D2AA07E00EDCB6D /* UIButton+regis.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC024251D2AA07E00EDCB6D /* UIButton+regis.m */; };
+		3EC024291D2AB31700EDCB6D /* WQRegisViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC024281D2AB31700EDCB6D /* WQRegisViewModel.m */; };
+		3EC0242C1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0242B1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m */; };
+		3EC0242F1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */; };
 		73FEB4FC17E55A132DF76A55 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8097997F1DA4BA3B7F6DD35F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E28B0901D2A9C39002686E4 /* WQRegisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQRegisViewController.h; sourceTree = "<group>"; };
+		3E28B0911D2A9C39002686E4 /* WQRegisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRegisViewController.m; sourceTree = "<group>"; };
 		3E3AC8A31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WQTextHud.h"; sourceTree = "<group>"; };
 		3E3AC8A41D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WQTextHud.m"; sourceTree = "<group>"; };
 		3E3AC8A51D2926BC00C5B53C /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
@@ -99,6 +107,16 @@
 		3E4970581D2904E800937645 /* code_icon_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "code_icon_normal@2x.png"; sourceTree = "<group>"; };
 		3E4970591D2904E800937645 /* phone_icon_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_icon_high@2x.png"; sourceTree = "<group>"; };
 		3E49705A1D2904E800937645 /* phone_icon_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_icon_normal@2x.png"; sourceTree = "<group>"; };
+		3EC024211D2A9E8600EDCB6D /* WQRegisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQRegisView.h; sourceTree = "<group>"; };
+		3EC024221D2A9E8600EDCB6D /* WQRegisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRegisView.m; sourceTree = "<group>"; };
+		3EC024241D2AA07E00EDCB6D /* UIButton+regis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+regis.h"; sourceTree = "<group>"; };
+		3EC024251D2AA07E00EDCB6D /* UIButton+regis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+regis.m"; sourceTree = "<group>"; };
+		3EC024271D2AB31700EDCB6D /* WQRegisViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQRegisViewModel.h; sourceTree = "<group>"; };
+		3EC024281D2AB31700EDCB6D /* WQRegisViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRegisViewModel.m; sourceTree = "<group>"; };
+		3EC0242A1D2AB7EA00EDCB6D /* WQRegisDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQRegisDemoViewController.h; sourceTree = "<group>"; };
+		3EC0242B1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRegisDemoViewController.m; sourceTree = "<group>"; };
+		3EC0242D1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQRegisDemoViewModel.h; sourceTree = "<group>"; };
+		3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRegisDemoViewModel.m; sourceTree = "<group>"; };
 		8097997F1DA4BA3B7F6DD35F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB337425525624B6ED902DEE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6401D5194A515E7CC0CBC8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +167,18 @@
 				3E3AC8B01D2926BC00C5B53C /* WQLoginViewModel.m */,
 				3E3AC8B11D2926BC00C5B53C /* WQLoginViewModelDemo.h */,
 				3E3AC8B21D2926BC00C5B53C /* WQLoginViewModelDemo.m */,
+				3E28B0901D2A9C39002686E4 /* WQRegisViewController.h */,
+				3E28B0911D2A9C39002686E4 /* WQRegisViewController.m */,
+				3EC0242A1D2AB7EA00EDCB6D /* WQRegisDemoViewController.h */,
+				3EC0242B1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m */,
+				3EC024211D2A9E8600EDCB6D /* WQRegisView.h */,
+				3EC024221D2A9E8600EDCB6D /* WQRegisView.m */,
+				3EC024241D2AA07E00EDCB6D /* UIButton+regis.h */,
+				3EC024251D2AA07E00EDCB6D /* UIButton+regis.m */,
+				3EC024271D2AB31700EDCB6D /* WQRegisViewModel.h */,
+				3EC024281D2AB31700EDCB6D /* WQRegisViewModel.m */,
+				3EC0242D1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.h */,
+				3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -448,14 +478,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC024261D2AA07E00EDCB6D /* UIButton+regis.m in Sources */,
 				3E3AC8B61D2926BC00C5B53C /* ViewController.m in Sources */,
+				3EC024231D2A9E8600EDCB6D /* WQRegisView.m in Sources */,
 				3E3AC8B71D2926BC00C5B53C /* WQLoginView.m in Sources */,
+				3EC0242F1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m in Sources */,
 				3E3AC8B81D2926BC00C5B53C /* WQLoginViewController.m in Sources */,
 				3E3AC8B41D2926BC00C5B53C /* NSString+Size.m in Sources */,
+				3E28B0921D2A9C39002686E4 /* WQRegisViewController.m in Sources */,
 				3E49700C1D2903F600937645 /* AppDelegate.m in Sources */,
 				3E3AC8B91D2926BC00C5B53C /* WQLoginViewModel.m in Sources */,
 				3E3AC8B31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m in Sources */,
 				3E3AC8BA1D2926BC00C5B53C /* WQLoginViewModelDemo.m in Sources */,
+				3EC0242C1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m in Sources */,
+				3EC024291D2AB31700EDCB6D /* WQRegisViewModel.m in Sources */,
 				3E4970091D2903F600937645 /* main.m in Sources */,
 				3E3AC8B51D2926BC00C5B53C /* UIImage+Resize.m in Sources */,
 			);
