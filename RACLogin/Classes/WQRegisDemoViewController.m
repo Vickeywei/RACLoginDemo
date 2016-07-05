@@ -63,7 +63,8 @@
                 }
                 case WQSendCodeViewModelStatus_Fail: {
                     [MBProgressHUD hideHUDForView:self.view animated:YES];
-                    [MBProgressHUD showImages:nil view:self.view text:@"发送失败"];
+                    NSString *errorString = [self.regisViewModel.error.userInfo objectForKey:NSLocalizedDescriptionKey];
+                    [MBProgressHUD showImages:nil view:self.view text:errorString];
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                         [MBProgressHUD hudHideForView:self.view];
                     });

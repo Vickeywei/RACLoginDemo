@@ -9,5 +9,6 @@
 #import "WQRegisViewModel.h"
 
 @interface WQRegisDemoViewModel : WQRegisViewModel
+UIKIT_EXTERN NSString *const kAFAPIManagerErrorDomain;
 
 @end

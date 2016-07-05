@@ -41,6 +41,7 @@
 		3EC024291D2AB31700EDCB6D /* WQRegisViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC024281D2AB31700EDCB6D /* WQRegisViewModel.m */; };
 		3EC0242C1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0242B1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m */; };
 		3EC0242F1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */; };
+		3EC024321D2B5BDC00EDCB6D /* NSString+PhoneNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC024311D2B5BDC00EDCB6D /* NSString+PhoneNum.m */; };
 		73FEB4FC17E55A132DF76A55 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8097997F1DA4BA3B7F6DD35F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +118,8 @@
 		3EC0242B1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRegisDemoViewController.m; sourceTree = "<group>"; };
 		3EC0242D1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQRegisDemoViewModel.h; sourceTree = "<group>"; };
 		3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRegisDemoViewModel.m; sourceTree = "<group>"; };
+		3EC024301D2B5BDC00EDCB6D /* NSString+PhoneNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PhoneNum.h"; sourceTree = "<group>"; };
+		3EC024311D2B5BDC00EDCB6D /* NSString+PhoneNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PhoneNum.m"; sourceTree = "<group>"; };
 		8097997F1DA4BA3B7F6DD35F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB337425525624B6ED902DEE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6401D5194A515E7CC0CBC8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +182,8 @@
 				3EC024281D2AB31700EDCB6D /* WQRegisViewModel.m */,
 				3EC0242D1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.h */,
 				3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */,
+				3EC024301D2B5BDC00EDCB6D /* NSString+PhoneNum.h */,
+				3EC024311D2B5BDC00EDCB6D /* NSString+PhoneNum.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -488,6 +493,7 @@
 				3E28B0921D2A9C39002686E4 /* WQRegisViewController.m in Sources */,
 				3E49700C1D2903F600937645 /* AppDelegate.m in Sources */,
 				3E3AC8B91D2926BC00C5B53C /* WQLoginViewModel.m in Sources */,
+				3EC024321D2B5BDC00EDCB6D /* NSString+PhoneNum.m in Sources */,
 				3E3AC8B31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m in Sources */,
 				3E3AC8BA1D2926BC00C5B53C /* WQLoginViewModelDemo.m in Sources */,
 				3EC0242C1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m in Sources */,

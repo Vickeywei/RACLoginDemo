@@ -8,9 +8,17 @@
 
 #import "WQRegisDemoViewModel.h"
 #import <AFNetworking.h>
+#import "NSString+PhoneNum.h"
+NSString *const kAFAPIManagerErrorDomain = @"AFAPIManagerErrorDomain";
+
 @implementation WQRegisDemoViewModel
 - (RACSignal *)requestSecurityCode {
     return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        if ([self.phoneNum scannerPhoneNum] == NO) {
+            NSError* error = [[NSError alloc] initWithDomain:kAFAPIManagerErrorDomain code:0 userInfo:@{NSLocalizedDescriptionKey:@"请输入正确的手机号"}];
+            [subscriber sendError:error];
+            
+        }
         AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
         [manager GET:@"https://api.douban.com/v2/book/search" parameters:@{@"123456":@"123456"} success:^(AFHTTPRequestOperation * _Nonnull operation, NSDictionary * _Nonnull responseObject) {
             // 请求成功的时候调用
