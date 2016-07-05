@@ -8,7 +8,6 @@
 
 #import "WQRegisViewModel.h"
 #import "UIButton+regis.h"
-#import <UIKit/UIKit.h>
 @interface WQRegisViewModel ()
 @property(nonatomic, strong)RACSignal* enableRegisSignal;
 @property(nonatomic, strong)RACSignal* enableSendCodeSignal;

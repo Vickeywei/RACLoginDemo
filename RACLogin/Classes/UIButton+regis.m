@@ -29,7 +29,7 @@
             NSString* timeString = [NSString stringWithFormat:@"%0.2d",seconds];
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.backgroundColor = countColor;
-                [self setTitle:[NSString stringWithFormat:@"%@%@",timeString,subTitle] forState:UIControlStateNormal];
+                [self setTitle:[NSString stringWithFormat:@"%@s%@",timeString,subTitle] forState:UIControlStateNormal];
                 self.userInteractionEnabled = NO;
             });
             timeOut--;
