@@ -89,7 +89,7 @@
     _securityCodeTextField = [UITextField new];
     _securityCodeTextField.backgroundColor = [UIColor clearColor];
     _securityCodeTextField.font = [UIFont systemFontOfSize:14];
-    _securityCodeTextField.placeholder = @"请输入您收到的6位验证码";
+    _securityCodeTextField.placeholder = @"请输入验证码";
     [self addSubview:_securityCodeTextField];
     
     _securityCodeTextFieldLeftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
