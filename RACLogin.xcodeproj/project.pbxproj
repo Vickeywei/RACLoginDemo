@@ -154,36 +154,10 @@
 		3E3AC8A21D29269A00C5B53C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3E3AC8A31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.h */,
-				3E3AC8A41D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m */,
-				3E3AC8A51D2926BC00C5B53C /* NSString+Size.h */,
-				3E3AC8A61D2926BC00C5B53C /* NSString+Size.m */,
-				3E3AC8A71D2926BC00C5B53C /* UIImage+Resize.h */,
-				3E3AC8A81D2926BC00C5B53C /* UIImage+Resize.m */,
-				3E3AC8A91D2926BC00C5B53C /* ViewController.h */,
-				3E3AC8AA1D2926BC00C5B53C /* ViewController.m */,
-				3E3AC8AB1D2926BC00C5B53C /* WQLoginView.h */,
-				3E3AC8AC1D2926BC00C5B53C /* WQLoginView.m */,
-				3E3AC8AD1D2926BC00C5B53C /* WQLoginViewController.h */,
-				3E3AC8AE1D2926BC00C5B53C /* WQLoginViewController.m */,
-				3E3AC8AF1D2926BC00C5B53C /* WQLoginViewModel.h */,
-				3E3AC8B01D2926BC00C5B53C /* WQLoginViewModel.m */,
-				3E3AC8B11D2926BC00C5B53C /* WQLoginViewModelDemo.h */,
-				3E3AC8B21D2926BC00C5B53C /* WQLoginViewModelDemo.m */,
-				3E28B0901D2A9C39002686E4 /* WQRegisViewController.h */,
-				3E28B0911D2A9C39002686E4 /* WQRegisViewController.m */,
-				3EC0242A1D2AB7EA00EDCB6D /* WQRegisDemoViewController.h */,
-				3EC0242B1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m */,
-				3EC024211D2A9E8600EDCB6D /* WQRegisView.h */,
-				3EC024221D2A9E8600EDCB6D /* WQRegisView.m */,
-				3EC024241D2AA07E00EDCB6D /* UIButton+regis.h */,
-				3EC024251D2AA07E00EDCB6D /* UIButton+regis.m */,
-				3EC024271D2AB31700EDCB6D /* WQRegisViewModel.h */,
-				3EC024281D2AB31700EDCB6D /* WQRegisViewModel.m */,
-				3EC0242D1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.h */,
-				3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */,
-				3EC024301D2B5BDC00EDCB6D /* NSString+PhoneNum.h */,
-				3EC024311D2B5BDC00EDCB6D /* NSString+PhoneNum.m */,
+				3EC024461D2BE82B00EDCB6D /* Itools */,
+				3EC024451D2BE81800EDCB6D /* ViewModel */,
+				3EC024441D2BE7FF00EDCB6D /* View */,
+				3EC024431D2BE7EA00EDCB6D /* Controller */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,6 +244,64 @@
 				3E49705A1D2904E800937645 /* phone_icon_normal@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		3EC024431D2BE7EA00EDCB6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AC8A91D2926BC00C5B53C /* ViewController.h */,
+				3E3AC8AA1D2926BC00C5B53C /* ViewController.m */,
+				3E3AC8AD1D2926BC00C5B53C /* WQLoginViewController.h */,
+				3E3AC8AE1D2926BC00C5B53C /* WQLoginViewController.m */,
+				3E28B0901D2A9C39002686E4 /* WQRegisViewController.h */,
+				3E28B0911D2A9C39002686E4 /* WQRegisViewController.m */,
+				3EC0242A1D2AB7EA00EDCB6D /* WQRegisDemoViewController.h */,
+				3EC0242B1D2AB7EA00EDCB6D /* WQRegisDemoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3EC024441D2BE7FF00EDCB6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AC8AB1D2926BC00C5B53C /* WQLoginView.h */,
+				3E3AC8AC1D2926BC00C5B53C /* WQLoginView.m */,
+				3EC024211D2A9E8600EDCB6D /* WQRegisView.h */,
+				3EC024221D2A9E8600EDCB6D /* WQRegisView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3EC024451D2BE81800EDCB6D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AC8AF1D2926BC00C5B53C /* WQLoginViewModel.h */,
+				3E3AC8B01D2926BC00C5B53C /* WQLoginViewModel.m */,
+				3E3AC8B11D2926BC00C5B53C /* WQLoginViewModelDemo.h */,
+				3E3AC8B21D2926BC00C5B53C /* WQLoginViewModelDemo.m */,
+				3EC024271D2AB31700EDCB6D /* WQRegisViewModel.h */,
+				3EC024281D2AB31700EDCB6D /* WQRegisViewModel.m */,
+				3EC0242D1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.h */,
+				3EC0242E1D2ABDAC00EDCB6D /* WQRegisDemoViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3EC024461D2BE82B00EDCB6D /* Itools */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AC8A31D2926BC00C5B53C /* MBProgressHUD+WQTextHud.h */,
+				3E3AC8A41D2926BC00C5B53C /* MBProgressHUD+WQTextHud.m */,
+				3E3AC8A51D2926BC00C5B53C /* NSString+Size.h */,
+				3E3AC8A61D2926BC00C5B53C /* NSString+Size.m */,
+				3E3AC8A71D2926BC00C5B53C /* UIImage+Resize.h */,
+				3E3AC8A81D2926BC00C5B53C /* UIImage+Resize.m */,
+				3EC024301D2B5BDC00EDCB6D /* NSString+PhoneNum.h */,
+				3EC024311D2B5BDC00EDCB6D /* NSString+PhoneNum.m */,
+				3EC024241D2AA07E00EDCB6D /* UIButton+regis.h */,
+				3EC024251D2AA07E00EDCB6D /* UIButton+regis.m */,
+			);
+			name = Itools;
 			sourceTree = "<group>";
 		};
 		BE27558E182AA2AB81B092CF /* Pods */ = {
