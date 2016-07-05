@@ -11,6 +11,8 @@
 @interface WQRegisViewModel ()
 @property(nonatomic, strong)RACSignal* enableRegisSignal;
 @property(nonatomic, strong)RACSignal* enableSendCodeSignal;
+@property(nonatomic, strong)UIButton* sendCodeButton;
+
 
 
 
@@ -38,11 +40,7 @@
         
     }];
     _sendCodeCommand = [[RACCommand alloc] initWithEnabled:_enableSendCodeSignal signalBlock:^RACSignal *(id input) {
-        NSLog(@"%@",input);
-        UIButton* button = input;
-        UIColor* mainColor = [UIColor whiteColor];
-        UIColor* countColor = [UIColor cyanColor];
-        [button startWithTime:60 title:@"获取验证码" countDownTitle:@"重新获取" mainColor:mainColor countColor:countColor];
+        self.sendCodeButton = (UIButton*)input;
         
         return [self requestSecurityCode];
         
@@ -74,19 +72,27 @@
     
     [_sendCodeCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
         @strongify(self);
+        NSLog(@"%@",x);
         self.status = WQSendCodeViewModelStatus_Success;
+        UIColor* mainColor = [UIColor whiteColor];
+        UIColor* countColor = [UIColor cyanColor];
+        [self.sendCodeButton startWithTime:60 title:@"获取验证码" countDownTitle:@"重新获取" mainColor:mainColor countColor:countColor];
     }];
     
     // 验证码发送失败
     [_sendCodeCommand.errors subscribeNext:^(id x) {
+        NSLog(@"%@",x);
+        
         @strongify(self);
         self.error = x;
         self.status = WQSendCodeViewModelStatus_Fail;
+        
     }];
     
     // 验证码发送中
     [[_sendCodeCommand.executing skip:1] subscribeNext:^(id x) {
         @strongify(self);
+        NSLog(@"%@",x);
         BOOL result = [x boolValue];
         if (result) {
             self.status = WQSnedCodeViewModelStatus_Doding;
