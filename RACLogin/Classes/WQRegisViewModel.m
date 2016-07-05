@@ -27,6 +27,8 @@
     
 }
 
+
+
 - (RACSignal *)requestRegisSignal {
     return nil;
 }
@@ -43,8 +45,8 @@
         UIColor* countColor = [UIColor cyanColor];
         [button startWithTime:60 title:@"获取验证码" countDownTitle:@"重新获取" mainColor:mainColor countColor:countColor];
         
-        
         return [self requestSecurityCode];
+        
         
     }];
     // 注册成功
@@ -73,14 +75,14 @@
     
     [_sendCodeCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
         @strongify(self);
-        self.status = WQRegisViewModelStatus_Success;
+        self.status = WQSendCodeViewModelStatus_Success;
     }];
     
     // 验证码发送失败
     [_sendCodeCommand.errors subscribeNext:^(id x) {
         @strongify(self);
         self.error = x;
-        self.status = WQRegisViewModelStatus_Fail;
+        self.status = WQSendCodeViewModelStatus_Fail;
     }];
     
     // 验证码发送中
@@ -88,7 +90,7 @@
         @strongify(self);
         BOOL result = [x boolValue];
         if (result) {
-            self.status = WQRegisViewModelStatus_Doding;
+            self.status = WQSnedCodeViewModelStatus_Doding;
         }
     }];
     

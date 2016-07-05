@@ -46,7 +46,6 @@
     RAC(self.regisView.securityCodeTextFieldImageIcon,highlighted) = self.regisViewModel.enableSecurityCodeTextField;
     self.regisView.regisButton.rac_command = self.regisViewModel.regisCommand;
     self.regisView.sendCodeBtn.rac_command = self.regisViewModel.sendCodeCommand;
-    
 
     
     

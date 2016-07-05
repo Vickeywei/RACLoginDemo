@@ -28,7 +28,7 @@
                 }
                 case WQRegisViewModelStatus_Success: {
                     [MBProgressHUD hideHUDForView:self.view animated:YES];
-                    [MBProgressHUD showImages:nil view:self.view text:@"登录成功"];
+                    [MBProgressHUD showImages:nil view:self.view text:@"注册成功"];
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                         [MBProgressHUD hudHideForView:self.view];
                     });
@@ -39,13 +39,34 @@
                 }
                 case WQRegisViewModelStatus_Fail: {
                     [MBProgressHUD hideHUDForView:self.view animated:YES];
-                    [MBProgressHUD showImages:nil view:self.view text:@"登录失败"];
+                    [MBProgressHUD showImages:nil view:self.view text:@"注册失败"];
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                         [MBProgressHUD hudHideForView:self.view];
                     });
                     //
                     
                     
+                    
+                    break;
+                }
+                case WQSnedCodeViewModelStatus_Doding: {
+                    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+                    break;
+                }
+                case WQSendCodeViewModelStatus_Success: {
+                    [MBProgressHUD hideHUDForView:self.view animated:YES];
+                    [MBProgressHUD showImages:nil view:self.view text:@"发送成功"];
+                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                        [MBProgressHUD hudHideForView:self.view];
+                    });
+                    break;
+                }
+                case WQSendCodeViewModelStatus_Fail: {
+                    [MBProgressHUD hideHUDForView:self.view animated:YES];
+                    [MBProgressHUD showImages:nil view:self.view text:@"发送失败"];
+                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                        [MBProgressHUD hudHideForView:self.view];
+                    });
                     
                     break;
                 }
